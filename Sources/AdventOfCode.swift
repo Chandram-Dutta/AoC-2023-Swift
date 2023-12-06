@@ -6,6 +6,8 @@ let allChallenges: [any AdventDay] = [
   Day02(),
   Day03(),
   Day04(),
+  Day05(),
+  Day06(),
 ]
 
 @main
@@ -61,7 +63,7 @@ struct AdventOfCode: AsyncParsableCommand {
     let timing1 = await run(part: challenge.part1, named: "Part 1")
     let timing2 = await run(part: challenge.part2, named: "Part 2")
 
-    print("Part 1 took \(timing1), part 2 took \(timing2).")
+    print("Part 1 took \(timing1), Part 2 took \(timing2).")
 
     if benchmark {
       print("Part 1 took \(timing1), part 2 took \(timing2).")
