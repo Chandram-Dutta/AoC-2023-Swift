@@ -1,9 +1,9 @@
 # Advent of Code Swift Starter Project
 
-[![Language](https://img.shields.io/badge/language-Swift-red.svg)](https://swift.org)
+ [![Language](https://img.shields.io/badge/language-Swift-red.svg)](https://swift.org)
 
 Daily programming puzzles at [Advent of Code](<https://adventofcode.com/>), by
-[Eric Wastl](<http://was.tl/>). This is a small example starter project for
+ [Eric Wastl](<http://was.tl/>). This is a small example starter project for
 building Advent of Code solutions.
 
 ## Usage
@@ -21,9 +21,9 @@ If you're using Visual Studio Code to edit, you might find these Swift
 extensions useful:
 
 - [Swift](https://marketplace.visualstudio.com/items?itemName=sswg.swift-lang)
-  (provides core language edit / debug / test features)
+(provides core language edit / debug / test features)
 - [apple-swift-format](https://marketplace.visualstudio.com/items?itemName=vknabel.vscode-apple-swift-format)
-  (supports the [swift-format](https://github.com/apple/swift-format) package)
+(supports the [swift-format](https://github.com/apple/swift-format) package)
 
 ## Challenges
 
@@ -78,12 +78,12 @@ Allow this plugin to write to the package directory? (yes/no)
 
 To avoid the interactive prompt when formatting source code, use the 
 `--allow-writing-to-package-directory` flag.
- 
+
 ```shell
 $ swift package format-source-code --allow-writing-to-package-directory
 ```
 
 swift-format will use the built-in default style to lint and format code. A
 `.swift-format` configuration file can be used to customize the style used, see
-[Configuration](https://github.com/apple/swift-format/blob/main/Documentation/Configuration.md)
+ [Configuration](https://github.com/apple/swift-format/blob/main/Documentation/Configuration.md)
 for more details. 
